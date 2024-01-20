@@ -1,0 +1,18 @@
+.h1{
+    color: blue;
+}
+.pie{
+    background-color: #0D1282;
+    padding-left: 300px;
+}
+.pie_titulo{
+    color: #fff;
+    margin-left: 110px;
+}
+.titulo{
+    font-size: 700;
+}
+.link_redes{
+    display: inline-block;
+    padding-left: 100px;
+}
