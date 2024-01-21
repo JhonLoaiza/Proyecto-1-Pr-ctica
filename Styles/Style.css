@@ -5,10 +5,27 @@ body{
     background-color: #F5F7F8;
     font-family: 'Roboto Mono', monospace;
 }
-/*
-*
-*
-*nav*/
+
+/*scroll*/
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #293462;
+    border-radius: 10px;
+}
+
+/*contenedor del texto*/
+.texto{
+    font-size: 30px;
+    padding: 40px;
+    padding-left: 60px;
+    padding-right: 550px;
+    float: initial  ;
+}
+
+/*nav*/
 .nav{
     background-color:  #FAEF5D;
     padding: 08px 20px 08px 20px;
@@ -68,14 +85,11 @@ body{
 footer*/
 .pie{
     background-color: #0D1282;
-    padding-left: 360px;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
+    
 }
 .pie_titulo{
     color: #fff;
-    margin-left: 95px;
+    margin-left: 110px;
 }
 .link_redes{
     display: inline-block;
