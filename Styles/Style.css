@@ -38,3 +38,11 @@
 .secciones_link{
     text-decoration: none;
 }
+/*
+*
+*
+*
+* Titulo*/
+.editorial::first-letter{
+    color: midnightblue;
+}
