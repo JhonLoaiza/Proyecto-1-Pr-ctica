@@ -7,12 +7,7 @@ body{
 }
 
 /*scroll*/
-body::-webkit-scrollbar{
-    width: 10px;
-}
-
 body::-webkit-scrollbar-thumb{
-    background: #293462;
     border-radius: 10px;
 }
 
@@ -22,15 +17,35 @@ body::-webkit-scrollbar-thumb{
     padding: 40px;
     padding-left: 60px;
     padding-right: 550px;
-    float: initial  ;
+        
 }
 
 /*nav*/
-.nav{
-    background-color:  #FAEF5D;
-    padding: 08px 20px 08px 20px;
+.edit{
+    color: #00008b;
+    font-size: 50px;
+}
+.letra1{
+    color: #ffff00;
+}
+.letra2{
+    color: #0000ff;
+}
+.letra3{
+    color: #f00d0d;
+}
+.recall{
+    text-decoration: none;
     text-align: center;
-    outline: #FEFFAC 2px solid;
+}
+.nav{
+    display: inline-block;
+    width: 100%;
+    background-color:  #176B87;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    outline: #176B87 2px solid;
+    position: fixed;
 }
 .secciones{
     display: inline-block;
@@ -39,10 +54,11 @@ body::-webkit-scrollbar-thumb{
     margin-left: 30px;
     margin-right: 30px;
     padding: 5px;
-    border: #FAEF5D solid 1px;
+    border: #176B87 solid 1px;
 }
-.secciones:hover{
+.secciones_link:hover{
     background-color: #293462;
+    color: #ffffff;
     border-radius: 30px; 
     border: #ff0000 solid 0.01px;
     transition-duration: 0.3s;
@@ -54,52 +70,37 @@ body::-webkit-scrollbar-thumb{
     color: #000000;
     font-size: large;
 }
-.secciones_link:hover{
-    color: #ffffff;
-}
+
 /*
 *
 *
 *
 * Titulo*/
-.h1{
-    margin-right: 10px;
-    margin-left: 10px;
-    position: relative;
-    border: darkgrey 3px solid;
 
-}
-.editorial{
-    color: #00008b;
-    font-size: 50px;
-}
-.editorial::first-letter{
-    color: #ffff00;
-}
-.letra2{
-    color: #0000ff;
-}
-.letra3{
-    color: #ff0000;
-}
-.recall{
-    text-decoration: none;
-    text-align: center;
-}
-/*
-*
-*
-*
-footer*/
+/*footer*/
 .pie{
-    background-color: #0D1282;
-    
+    background-color:  #176B87;
+    padding: 08px 20px 08px 20px;
+    text-align: center;
+    outline: #FEFFAC 2px solid;
 }
+    
 .pie_titulo{
-    color: #fff;
+    color:#000000;
     margin-left: 110px;
 }
 .link_redes{
+    color: black;
     display: inline-block;
     padding-left: 100px;
+}
+
+@media (max-width: 600px) {
+    body{
+
+    }
+}
+
+@media (min-width: 600px){
+
 }
