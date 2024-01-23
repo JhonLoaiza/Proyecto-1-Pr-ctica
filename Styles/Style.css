@@ -70,12 +70,21 @@ body::-webkit-scrollbar-thumb{
     color: #000000;
     font-size: large;
 }
-
 /*
 *
 *
 *
-* Titulo*/
+*
+*
+cuerpo*/
+aside{
+    position: relative;
+}
+
+
+
+
+
 
 /*footer*/
 .pie{
