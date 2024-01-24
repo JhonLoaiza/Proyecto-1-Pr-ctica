@@ -16,11 +16,18 @@ body::-webkit-scrollbar-thumb{
 }
 
 /*contenedor del texto*/
+.h1{
+    margin-top: 2%;
+}
+.h5{
+    padding-top: 40px;
+    color: #176B87;
+}
 .texto{
     font-size: 30px;
     padding: 40px;
     padding-left: 60px;
-    padding-right: 550px;
+    padding-right: 450px;
         
 }
 
@@ -36,7 +43,7 @@ body::-webkit-scrollbar-thumb{
     color: #0000ff;
 }
 .letra3{
-    color: #f00d0d;
+    color: red;
 }
 .recall{
     text-decoration: none;
@@ -78,12 +85,7 @@ body::-webkit-scrollbar-thumb{
 .noticia{
 
 }
-section{
-    float: left;
-    width: 50%;
-    border: #f00d0d 1px solid;
-    background: #00008b;
-}
+
 .cont_relleno{
     display: inline-block;
 
